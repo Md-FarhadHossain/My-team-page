@@ -6,3 +6,29 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header */
+.header_content {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+.container {
+    width: 960px;
+    margin: auto;
+}
+
+.header_title {
+    width: 50%;
+}
+
+.header_desc {
+    width: 350px;
+}
+
+/* Header end */
