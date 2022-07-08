@@ -39,10 +39,12 @@ body {
         flex-direction: column;
         gap: 3rem;
     }
+
     .header_title {
         width: 100% !important;
     }
 }
+
 /* Header end */
 
 
@@ -59,11 +61,52 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 5rem;
+    row-gap: 5rem;
+    column-gap: 1rem;
+
 }
 
-.image-2, .image-5 {
+.image-2,
+.image-5 {
     position: relative;
     top: 5rem;
 }
+
+.image p {
+    font-weight: bold;
+}
+
+.image {
+    position: relative;
+}
+
+span {
+    position: absolute;
+    transform: rotate(90deg);
+    right: -59px;
+    top: 30px;
+    font-size: 0.8rem;
+}
+
+@media screen and (max-width: 788px) {
+
+    .image-4,
+    .image-6 {
+        position: relative;
+        top: 5rem;
+    }
+
+    .image-5 {
+        top: 0 !important;
+    }
+
+}
+
+@media screen and (max-width: 528px) {
+    .image img {
+        width: 160px;
+        height: 280px;
+    }
+}
+
 /* Main content  end */
