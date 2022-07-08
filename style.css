@@ -11,6 +11,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+
 /* Header */
 .header_content {
     display: flex;
@@ -63,7 +64,6 @@ body {
     justify-content: space-between;
     row-gap: 5rem;
     column-gap: 1rem;
-
 }
 
 .image-2,
@@ -83,9 +83,17 @@ body {
 span {
     position: absolute;
     transform: rotate(90deg);
-    right: -59px;
-    top: 30px;
+    right: -64px;
+    top: 31px;
     font-size: 0.8rem;
+    text-transform: uppercase;
+}
+.first_child {
+    right: -76px;
+    top: 45px;
+}
+.second_child {
+    top: 34px;
 }
 
 @media screen and (max-width: 788px) {
@@ -106,6 +114,10 @@ span {
     .image img {
         width: 160px;
         height: 280px;
+    }
+    span {
+        right: -45px;
+        top: 23px;
     }
 }
 
