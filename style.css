@@ -52,6 +52,9 @@ body {
 
 
 /* Main content */
+.main_content {
+    padding: 8rem 0;
+}
 .image img {
     object-fit: cover;
     width: 240px;
@@ -122,3 +125,15 @@ span {
 }
 
 /* Main content  end */
+
+
+/* Footer */
+
+footer {
+    margin-top: 3rem;
+    text-align: center;
+    font-size: .9rem;
+    background: #000;
+    color: #9f9898;
+    padding: 2rem 0;
+}
