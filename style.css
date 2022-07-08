@@ -21,6 +21,8 @@ body {
 .container {
     width: 960px;
     margin: auto;
+    max-width: 100%;
+    padding: 0 1rem;
 }
 
 .header_title {
@@ -31,4 +33,14 @@ body {
     width: 350px;
 }
 
+
+@media screen and (max-width: 768px) {
+    .header_content {
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .header_title {
+        width: 100% !important;
+    }
+}
 /* Header end */
